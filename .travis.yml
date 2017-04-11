@@ -10,7 +10,7 @@ deploy:
     - provider: script
       script: ./deploy.sh
       env:
-          - JARDA_VAR=hellomaster
+          - JARDA_VAR=hello-master
       on:
           branch: master
     - provider: script
