@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+    - node
+cache:
+    directories:
+        - node_modules
+script:
+    - npm run build
+deploy:
+    - provider: script
+      script: ./deploy.sh
+      env:
+          - JARDA_VAR=hellomaster
+      on:
+          branch: master
+    - provider: script
+      script: ./deploy.sh
+      env:
+          - JARDA_VAR=hellofrance
+      on:
+          branch: le_branch
