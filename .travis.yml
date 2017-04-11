@@ -16,6 +16,6 @@ deploy:
     - provider: script
       script: ./deploy.sh
       env:
-          - JARDA_VAR=hellofrance
+          - JARDA_VAR=hello_france
       on:
           branch: le_branch
