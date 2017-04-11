@@ -14,11 +14,11 @@ deploy:
       script: ./deploy.sh
       on:
           branch: master
-          condition: $REACT_APP_STAGE=development
+          condition: $REACT_APP_STAGE = development
     - provider: script
       script: ./deploy.sh
       env:
           - JARDA_VAR=hellofrance
       on:
           branch: production
-          condition: $REACT_APP_STAGE=production
+          condition: $REACT_APP_STAGE = production
