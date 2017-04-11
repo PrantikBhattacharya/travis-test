@@ -6,7 +6,7 @@ cache:
     directories:
         - node_modules
 env:
-    - REACT_APP_STAGE=development SECRET=devel
+    - secure: "K0kuX+bpurVNWPxU0gLY3dIhbpy2Vw8pDZTJtZ+vKa/Jfvz8HCXXgzkT0N1HYB2WNE9iXEUdIlAHh5IA6/d7Gm1YUlE9EJaVNF7KseEgqKTgYcSJ4QTs4gaMCEc8N08LN++PvVj+ras6sVPX+qxt0lhLC8c9M964zy7UA7cuoTc0JWiXXfEECxSMYWd2SKWp/Kf+ZIKPrYCfCQVDDBkJQasNcwSgVEDGi9+eGV4Of8PckVmabCRoHIY+UU6xytCb2nzaEaoDMHBVpIr6dWOlL6ZjvLDd3o1D7KB3EYumCsv3fRhM2U+neL8Jm0wXglcg1h3/sz27PdHK6AFbvTTRVjetf+wuaFtJgAmpgjKdtF1jspG4+KMxY/uCkmIEYEqes/AkwaIfGK5ANDUhHWK1AMgYS4N8td/979e3tc8NxhrApXmnLW3BjDCV8sD4g21lWj/vzhZF6yQYd7wK0NaJvQ4p0Lts5jiyXFQ/WGr8+xBf5bl05h8aHAdFCXlHqxy8nQ3BvodN+QuK+RE7Nfxh7xSuZxx7/0/4ZVrvnqht/jX5rewej4gf1ofUPbV9aa4PqGXfXQ1WlG0LtchxAxRw8a2oAEbFNuC8NhH5SrXFxxctqKI1Et02lUiJNKwY2ruA6fgYi7q6/Fs9H+iHabh7oNI4HkhrY3X1aTuYVRKnbCY="
     - REACT_APP_STAGE=production SECRET=produ
 script:
     - npm run build
