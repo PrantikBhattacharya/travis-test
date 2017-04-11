@@ -4,6 +4,9 @@ node_js:
 cache:
     directories:
         - node_modules
+env:
+    - BUILD_VAR=jedna
+    - BUILD_VAR=druha
 script:
     - npm run build
 deploy:
